@@ -176,7 +176,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 }
 .ref_name {
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 /* education */
@@ -189,8 +189,17 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     margin-top: 2rem;
 }
 
+.item_li_description {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
 /* awards */
-.awards_item {
+.project_item {
     margin-top: 2rem;
 }
 
