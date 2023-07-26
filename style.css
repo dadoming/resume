@@ -173,10 +173,16 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 /* ref */
 .ref_item {
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 .ref_name {
     font-size: 1.6rem;
     font-weight: 100;
+}
+.ref_flag {
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
 /* education */
