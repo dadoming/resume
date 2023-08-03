@@ -1,6 +1,5 @@
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
-let mouseMoved = false;
 
 const colors = ["#ffff00", "#ffea00", "#ffd200", "#ffb700", "#ff9a26", "#ff7946", "#ff5264", "#ff1681", "#ff00a0", "#ff00c0", "#ff00e1", "#ff00ff"]
 
@@ -13,7 +12,6 @@ circles.forEach(function(circle, index) {
 window.addEventListener("mousemove", function(e) {
     coords.x = e.clientX;
     coords.y = e.clientY;
-    mouseMoved = true;
 });
 
 function animateCircles() {
