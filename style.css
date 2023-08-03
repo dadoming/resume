@@ -46,7 +46,6 @@ a {
     text-transform: uppercase;
 }
 .item_preTitle {
-    margin-top: 1rem;
     font-size: 1.4rem;
     color: var(--text-color);
     font-weight: 300;
@@ -54,11 +53,8 @@ a {
 .item_title {
     font-size: 1.6rem;
     color: var(--text-color);
-    font-weight: 500;
+    font-weight: 200;
     margin: 0.8rem 0;
-}
-.item_title:hover {
-    color: var(--primary-color);
 }
 .item_subtitle {
     font-size: 1.4rem;
@@ -209,9 +205,25 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 }
 
 /* awards */
-.project_item {
-    margin-top: 2rem;
+.project_info {
+    margin-top: 1rem;
+    color: var(--text-color);
+    font-size: 1.6rem;
 }
+.project_item {
+    margin-top: 1.5rem;
+}
+.project_title {
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: var(--text-color);
+}
+.project_title:hover {
+    color: var(--primary-color);
+}
+
 
 /* interests */
 .interest_items {
@@ -268,4 +280,31 @@ hr {
     hr {
         margin: 0 auto;
     }
+}
+
+
+
+
+
+
+/* Mouse follower */
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    mix-blend-mode: difference;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;  
+}
+
+.circle {
+    position: fixed;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #fff;
 }
