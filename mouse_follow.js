@@ -50,6 +50,6 @@ else
     circles.forEach(function(circle, index) {
         circle.x = 0;
         circle.y = 0;
-        circle.style.backgroundColor = "#d9b99b";
+        circle.style.backgroundColor = "#f5f5dc";
     });
 }
