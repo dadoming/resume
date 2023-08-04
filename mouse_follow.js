@@ -43,3 +43,13 @@ if (!isMobile)
     
     animateCircles();
 }
+else 
+{
+    const circles = document.querySelectorAll(".circle");
+
+    circles.forEach(function(circle, index) {
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = "#d9b99b";
+    });
+}
