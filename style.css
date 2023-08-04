@@ -9,16 +9,16 @@
   box-sizing: border-box;
 }
 :root{
-    --primary-color: #ff7613;
-    --text-color: #727171;
+    --primary-color: #771624;
+    --text-color: black;
 }
 html {
-    font-size: 10px;
+    font-size: 11px;
 }
 body {
     font-family: 'Inter', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #d9b99b;
+    color: beige;
 }
 
 /* common styles
@@ -31,7 +31,7 @@ img {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .description {
     margin-top: 1rem;
@@ -70,7 +70,7 @@ a {
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background: #070707;
+    background: beige;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
@@ -129,7 +129,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     max-width: 250px;
 }
 .profile_name_firstName {
-    color: white;
+    color: black;
     font-weight: 200;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
@@ -147,6 +147,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
+    color: grey;
 }
 .downloadButton {
     display: block;
@@ -175,10 +176,12 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    color: var(--text-color);
 }
 .ref_name {
     font-size: 1.6rem;
     font-weight: 100;
+    color: var(--text-color);
 }
 .ref_flag {
     font-size: 2rem;
@@ -306,5 +309,5 @@ hr {
     width: 16px;
     height: 16px;
     border-radius: 16px;
-    background-color: #fff;
+    background-color: black;
 }
