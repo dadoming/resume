@@ -2,4 +2,4 @@
 
 A fun project to learn HTML and CSS. The webpage is hosted on github pages.
 
-[webpage](dadoming.github.io/my_cv/)
+[My Webpage](https://dadoming.github.io/my_cv/)
