@@ -10,6 +10,7 @@
 }
 :root{
     --primary-color: #771624;
+    --link-color: #ee0d0d;
     --text-color: black;
 }
 html {
@@ -35,7 +36,7 @@ a {
 }
 .description {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: var(--text-color);
 }
@@ -46,15 +47,16 @@ a {
     text-transform: uppercase;
 }
 .item_preTitle {
+    margin-top: 2rem;
     font-size: 1.4rem;
     color: var(--text-color);
-    font-weight: 300;
+    font-weight: 400;
 }
 .item_title {
     font-size: 1.6rem;
-    color: var(--text-color);
-    font-weight: 200;
-    margin: 0.8rem 0;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin: 0.4rem 0;
 }
 .item_subtitle {
     font-size: 1.4rem;
@@ -130,7 +132,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 }
 .profile_name_firstName {
     color: black;
-    font-weight: 200;
+    font-weight: 300;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
     display: block;
@@ -147,7 +149,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: grey;
+    color: rgb(48, 48, 48);
 }
 .downloadButton {
     display: block;
@@ -180,7 +182,7 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 }
 .ref_name {
     font-size: 1.6rem;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--text-color);
 }
 .ref_flag {
@@ -197,12 +199,17 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
 .exp_item {
     margin-top: 2rem;
 }
-
 .item_li_description {
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 1.5;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.item_description {
+    margin-top: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--text-color);
 }
@@ -221,10 +228,10 @@ So, the font size will be 20px on small screens, 8% of viewport width on medium 
     font-size: 1.6rem;
     margin-top: 6px;
     margin-bottom: 6px;
-    color: var(--text-color);
+    color: var(--primary-color);
 }
 .project_title:hover {
-    color: var(--primary-color);
+    color: var(--link-color);
 }
 
 
@@ -297,7 +304,6 @@ hr {
     position: fixed;
     display: block;
     border-radius: 0;
-    mix-blend-mode: difference;
     top: 0;
     left: 0;
     z-index: 9999999999999999;  
@@ -309,5 +315,5 @@ hr {
     width: 16px;
     height: 16px;
     border-radius: 16px;
-    background-color: #d9b99b;
+    background-color: white;
 }

@@ -4,8 +4,8 @@ if (!isMobile)
 {
     const coords = { x: 0, y: 0 };
     const circles = document.querySelectorAll(".circle");
-    const colors = ["#ffff00", "#ffea00", "#ffd200", "#ffb700", "#ff9a26", "#ff7946", "#ff5264", "#ff1681", "#ff00a0", "#ff00c0", "#ff00e1", "#ff00ff"]
-    
+    const colors = ["#771624", "#81282b", "#8a3832", "#94473a", "#9d5543", "#a6644d", "#ae7258", "#b78064", "#bf8e71", "#c89c7e", "#d0ab8c", "#d9b99b"];
+
     circles.forEach(function(circle, index) {
         circle.x = 0;
         circle.y = 0;
