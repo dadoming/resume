@@ -292,29 +292,3 @@ hr {
         margin: 0 auto;
     }
 }
-
-
-
-
-
-
-/* Mouse follower */
-
-.cursor {
-    pointer-events: none;
-    position: fixed;
-    display: block;
-    border-radius: 0;
-    top: 0;
-    left: 0;
-    z-index: 9999999999999999;  
-}
-
-.circle {
-    position: fixed;
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 16px;
-    background-color: beige;
-}
